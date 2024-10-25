@@ -1,0 +1,122 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: hsl(216, 12%, 8%);
+}
+.Box {
+  padding: 24px;
+  height: 300px;
+  width: 320px;
+  background-color: #19202a;
+  border-radius: 20px;
+}
+.Box2 {
+  padding: 24px;
+  height: 300px;
+  width: 320px;
+  display: flex;
+  background-color: #19202a;
+  border-radius: 20px;
+  flex-direction: column;
+  align-items: center;
+}
+.thankyou {
+  width: 150px;
+  height: 100px;
+}
+
+.circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background-color: #252d37;
+}
+
+h1 {
+  font-family: "Overpass", sans-serif;
+  color: white;
+  font-size: 25px;
+}
+p {
+  font-family: "Overpass", sans-serif;
+  color: #959eac;
+  font-size: 14px;
+}
+
+.btn {
+  border-radius: 50%;
+  background-color: #252d37;
+  border: none;
+  color: #959eac;
+  width: 40px;
+  height: 40px;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+.btnc {
+  border-radius: 50%;
+  background-color: hsl(25, 97%, 53%);
+  border: none;
+  color: white;
+  width: 40px;
+  height: 40px;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: white;
+  color: black;
+  font-weight: 600;
+}
+.btnholder {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.submit {
+  width: 100%;
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 35px;
+  width: 320px;
+  margin-top: 30px;
+  border-radius: 20px;
+  font-family: "Overpass", sans-serif;
+  color: black;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.submit:hover {
+  background-color: white;
+}
+.select {
+  background-color: #252d37;
+  color: hsl(25, 97%, 53%);
+  font-family: "Overpass", sans-serif;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 190px;
+  height: 30px;
+  border-radius: 20px;
+}
+
+.paraa {
+  text-align: center;
+  color: hsl(217, 12%, 63%);
+}
+
+.thank {
+  margin-bottom: 0;
+}
