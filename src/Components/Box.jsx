@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Button from "./Button";
-
+import iconStar from "../assets/icon-star.svg";
+import illustration from "../assets/illustration-thank-you.svg";
 const Box = () => {
   const [submit, changeSubmit] = useState(true);
   const [num, setNum] = useState(0);
@@ -14,7 +15,7 @@ const Box = () => {
       {submit ? (
         <div className="Box">
           <div className="circle">
-            <img src="src/assets/icon-star.svg" alt="star" />
+            <img src={iconStar} alt="star" />
           </div>
           <h1>How did we do?</h1>
           <p>
@@ -37,11 +38,7 @@ const Box = () => {
         </div>
       ) : (
         <div className="Box2">
-          <img
-            className="thankyou"
-            src="src/assets/illustration-thank-you.svg"
-            alt="thankyou"
-          />
+          <img className="thankyou" src={illustration} alt="thankyou" />
           <div className="select">You selected {num} out of 5</div>
           <h1 className="thank">Thank You!</h1>
           <p className="paraa">
